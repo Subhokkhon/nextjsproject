@@ -1,0 +1,64 @@
+.orContinueWithChild {
+  width: 312px;
+  height: 142px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--green);
+  border: 2px solid var(--green);
+  box-sizing: border-box;
+  display: none;
+}
+.place,
+.placeIcon {
+  position: relative;
+  z-index: 1;
+}
+.placeIcon {
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.place {
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 51px;
+}
+.placeParent,
+.placeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.placeParent {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+}
+.anAddressClassroom {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.orContinueWith {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--green);
+  border: 2px solid var(--green);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-sm);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--grey-white);
+  font-family: var(--font-poppins);
+}

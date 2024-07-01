@@ -1,0 +1,127 @@
+.kvChild {
+  width: 840px;
+  height: 542px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  display: none;
+  max-width: 100%;
+}
+.addIcon,
+.addYourListing {
+  position: relative;
+  z-index: 1;
+}
+.addIcon {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 40px;
+}
+.addYourListing {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.addListingTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.addButton,
+.addListing,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.addButton {
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.addListing,
+.frameParent {
+  align-self: stretch;
+  justify-content: center;
+}
+.addListing {
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.frameParent {
+  flex-wrap: wrap;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.kv,
+.listingTypes {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.listingTypes {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.kv {
+  width: 840px;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  padding: var(--padding-21xl);
+  gap: var(--gap-13xl);
+}
+.addNew,
+.content,
+.kv {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--grey-darkest);
+  font-family: var(--font-poppins);
+}
+.addNew {
+  width: 1440px;
+  background-color: var(--grey-hover);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-200xl);
+  gap: var(--gap-5xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .frameParent,
+  .listingTypes {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .kv {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .addYourListing {
+    font-size: var(--font-size-lgi);
+  }
+  .kv {
+    gap: var(--gap-base);
+  }
+}

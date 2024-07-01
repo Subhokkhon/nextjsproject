@@ -1,0 +1,318 @@
+.navbarBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  background-color: var(--grey-white);
+}
+.hobbycueLogoV21 {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.searchInputBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-hover);
+  border: 1px solid var(--grey-lighter);
+  box-sizing: border-box;
+  mix-blend-mode: normal;
+}
+.searchHere {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.searchInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.icons8Search1,
+.searchIconButtonBackground {
+  position: absolute;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+}
+.searchIconButtonBackground {
+  top: 0;
+  left: 0;
+  background-color: var(--purple-1);
+  width: 100%;
+  height: 100%;
+}
+.icons8Search1 {
+  top: 12px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  z-index: 1;
+}
+.searchIconButtonBackgroundParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  z-index: 1;
+}
+.navbarRight,
+.searchInputBackgroundParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.searchInputBackgroundParent {
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xs);
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.navbarRight {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  min-width: 420px;
+  max-width: 100%;
+}
+.exploreIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.explore {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 51px;
+}
+.hobbiesButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.icons8ExpandArrow1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.exploreParent,
+.userActions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exploreParent {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.userActions {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.hobbiesIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.hobbies {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.hobbiesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.icons8ExpandArrow11 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.hobbiesParent,
+.userActions1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hobbiesParent {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.userActions1 {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.bookmarkBlack24dp1Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userActions2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.notificationsBlack24dp1Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userActions3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.product3Icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userActions4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.profilePictureIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.arrowWrapper,
+.userActionsParent,
+.userProfile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrowWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.userActionsParent,
+.userProfile {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.userActionsParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.navbar,
+.pageContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pageContent {
+  width: 489px;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.navbar {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs) var(--padding-78xl);
+  position: relative;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--grey-dark);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .navbar {
+    padding-left: var(--padding-29xl);
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .navbarRight {
+    min-width: 100%;
+  }
+  .userActionsParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

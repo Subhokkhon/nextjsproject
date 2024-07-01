@@ -1,0 +1,66 @@
+.frameChild {
+  width: 312px;
+  height: 142px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 2px solid var(--purple-1);
+  box-sizing: border-box;
+  display: none;
+}
+.groupsBlack24dp11 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+  z-index: 1;
+}
+.people {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.groupsBlack24dp11Parent,
+.peopleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.peopleWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.groupsBlack24dp11Parent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.anIndividualOr {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 2px solid var(--purple-1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-sm);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--grey-darkest);
+  font-family: var(--font-poppins);
+}

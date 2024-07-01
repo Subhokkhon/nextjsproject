@@ -1,0 +1,165 @@
+.frameChild {
+  width: 360px;
+  height: 175px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 2px solid var(--red);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.basketCartEcommerceShoppingIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.product {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 80px;
+  z-index: 1;
+}
+.basketCartEcommerceShoppingParent,
+.productWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productWrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.basketCartEcommerceShoppingParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.anItemThat {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border: 2px solid var(--red);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-sm);
+  gap: var(--gap-5xl);
+  min-width: 272px;
+  z-index: 1;
+}
+.frameItem {
+  width: 360px;
+  height: 175px;
+  position: relative;
+  border: 2px solid var(--blue-1);
+  display: none;
+}
+.program,
+.programIcon {
+  position: relative;
+  z-index: 1;
+}
+.programIcon {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.program {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 90px;
+}
+.programParent,
+.programWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.programWrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.programParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.people {
+  width: 55px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--grey-white);
+  display: none;
+}
+.anEventWith {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 2px solid var(--blue-1);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-sm);
+  gap: var(--gap-5xl);
+  min-width: 272px;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--grey-darkest);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .product,
+  .program {
+    font-size: var(--font-size-base);
+  }
+}
